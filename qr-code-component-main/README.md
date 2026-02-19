@@ -25,7 +25,7 @@ The goal is to build a single, responsive component that remains centered in the
 
 ### Links
 
-- Live Site URL: [Qr-code challenge]([https://your-live-site-url.com](https://projects-pt2vf1h8w-uttamsaini15s-projects.vercel.app/))
+- Live Site URL: [QR-Code Challange](https://projects-pt2vf1h8w-uttamsaini15s-projects.vercel.app/)
 
 ## My process
 
