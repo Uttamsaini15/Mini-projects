@@ -1,0 +1,116 @@
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    background-color: hsl(47, 88%, 63%);
+}
+
+.card {
+    border: 1px solid black;
+    background-color: white;
+    max-width: 350px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 6px 6px 1px hsl(0, 0%, 7%);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 10px 10px 1px hsl(0, 0%, 7%);
+}
+
+img {
+    width: 100%;
+    display: block;
+    border-radius: 12px;
+}
+
+.text {
+    margin-top: 20px;
+}
+
+button {
+    background-color: hsl(47, 88%, 63%);
+    color: black;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    padding: 5px 8px;
+    border-radius: 3px;
+    border-color: hsl(47, 88%, 63%);
+}
+
+p {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: hsl(0, 0%, 7%);
+    font-size: 15px;
+}
+
+h2 {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    color: hsl(0, 0%, 7%);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+h2:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+p {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: hsl(0, 0%, 42%);
+}
+
+.author {
+    display: flex;
+}
+
+.author>img {
+    width: 40px;
+    height: 40px;
+    margin-left: 0px;
+}
+
+.author>p {
+    margin-left: 10px;
+    color: hsl(0, 0%, 7%);
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+@media (max-width: 375px ) {
+  .card {
+    margin: 0 1rem;
+  }
+}
+
+/* {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
